@@ -17,3 +17,5 @@ export let stop = sound => {
         sounds[sound].pause();
     }
 };
+
+

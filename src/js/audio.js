@@ -10,6 +10,8 @@ export let play = sound => {
     }
 };
 
+
+
 export let stop = sound => {
     if (sounds[sound]) {
         sounds[sound].pause();
